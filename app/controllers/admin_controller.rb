@@ -5,7 +5,7 @@ class AdminController < ApplicationController
   layout false, only: [:get_all_users, :get_user]
 
   def dashboard
-  end
+  end 
 
   def analytics
     if params[:field].nil?
